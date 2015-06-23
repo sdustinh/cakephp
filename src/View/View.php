@@ -27,6 +27,7 @@ use Cake\Routing\RequestActionTrait;
 use Cake\Routing\Router;
 use Cake\Utility\Inflector;
 use Cake\View\CellTrait;
+use Cake\View\PresenterTrait;
 use Cake\View\ViewVarsTrait;
 use InvalidArgumentException;
 use LogicException;
@@ -63,6 +64,7 @@ class View implements EventDispatcherInterface
     use CellTrait;
     use EventManagerTrait;
     use LogTrait;
+    use PresenterTrait;
     use RequestActionTrait;
     use ViewVarsTrait;
 
